@@ -17,7 +17,7 @@
     "bem-tools-autoprefixer": "0.0.3"
   },
   "scripts": {
-    "postinstall": "bower-npm-install --non-interactive",
+    "postinstall": "npm run deps",
     "deps": "bower-npm-install --non-interactive"
   },
   "private": true
