@@ -1,0 +1,13 @@
+.answer__left,
+.answer__right
+{
+    float: left;
+
+    width: 50%;
+}
+
+.answer__caption
+{
+    font-size: 15px;
+    margin-bottom: 6px;
+}
