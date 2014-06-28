@@ -1,0 +1,4 @@
+block('page').elem('body').match(!this._done).content()({
+    elem : 'inner',
+    content : applyNext({ _done : true})
+});
